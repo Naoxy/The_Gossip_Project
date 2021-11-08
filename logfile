@@ -1,0 +1,38 @@
+2021-11-01 16:15:28.123 CET [12943] FATAL:  lock file "postmaster.pid" already exists
+2021-11-01 16:15:28.123 CET [12943] HINT:  Is another postmaster (PID 6759) running in data directory "/usr/local/var/postgres"?
+2021-11-02 18:38:14.594 CET [34449] FATAL:  lock file "postmaster.pid" already exists
+2021-11-02 18:38:14.594 CET [34449] HINT:  Is another postmaster (PID 6759) running in data directory "/usr/local/var/postgres"?
+2021-11-02 18:40:22.362 CET [34681] LOG:  starting PostgreSQL 14.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-11-02 18:40:22.365 CET [34681] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-11-02 18:40:22.365 CET [34681] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-11-02 18:40:22.365 CET [34681] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-11-02 18:40:22.365 CET [34681] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-11-02 18:40:22.366 CET [34681] WARNING:  could not create listen socket for "localhost"
+2021-11-02 18:40:22.366 CET [34681] FATAL:  could not create any TCP/IP sockets
+2021-11-02 18:40:22.367 CET [34681] LOG:  database system is shut down
+2021-11-02 18:40:44.755 CET [34864] LOG:  starting PostgreSQL 14.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-11-02 18:40:44.759 CET [34864] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-02 18:40:44.759 CET [34864] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-02 18:40:44.760 CET [34864] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-02 18:40:44.763 CET [34865] LOG:  database system was shut down at 2021-11-02 18:40:33 CET
+2021-11-02 18:40:44.766 CET [34864] LOG:  database system is ready to accept connections
+2021-11-02 18:41:59.000 CET [34941] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:41:59.813 CET [34942] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:01.493 CET [34943] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:02.166 CET [34944] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:02.619 CET [34945] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:02.928 CET [34946] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:32.832 CET [34948] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:39.578 CET [34949] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:42:42.733 CET [34950] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:43:24.349 CET [34957] FATAL:  role "the-gossip-project_development" does not exist
+2021-11-02 18:43:24.912 CET [34958] FATAL:  role "the-gossip-project_development" does not exist
+2021-11-02 18:43:26.461 CET [34959] FATAL:  role "the-gossip-project_development" does not exist
+2021-11-02 18:43:27.275 CET [34960] FATAL:  role "the-gossip-project_development" does not exist
+2021-11-02 18:43:49.207 CET [34962] FATAL:  role "postgres" does not exist
+2021-11-02 18:43:49.998 CET [34963] FATAL:  role "postgres" does not exist
+2021-11-02 18:43:50.494 CET [34964] FATAL:  role "postgres" does not exist
+2021-11-02 18:43:51.280 CET [34965] FATAL:  role "postgres" does not exist
+2021-11-02 18:45:39.943 CET [34982] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:45:40.915 CET [34983] FATAL:  role "the-gossip-project" does not exist
+2021-11-02 18:45:45.537 CET [34985] FATAL:  role "the-gossip-project" does not exist

@@ -1,0 +1,52 @@
+<header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">THE GOSSIP PROJECT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html.erb">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html.erb">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <h1>Editer l'article</h1>
+
+    <%= form_for @gossip do |f| %>
+
+    <div class="form-group">
+      <label>Titre de l'article</label>
+      <%= f.text_field :title, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <label>Contenu de l'article</label>
+      <%= f.text_area :content, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Modifier l'article</button>
+    </div>
+    <% end %>
+
+
+
+
+
+
+   
+    
+  </body>
+</html>
+
